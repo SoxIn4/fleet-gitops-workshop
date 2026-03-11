@@ -8,6 +8,9 @@ controls:
       - path: '../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig'
         labels_include_all:
           - "CPE Team"
+  macos_updates:
+    deadline: "2026-04-30"
+    minimum_version: "26.4"
 software:
 settings:
   secrets:
