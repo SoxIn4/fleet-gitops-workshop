@@ -8,7 +8,7 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: "SoxIn4 🚀"
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   fleet_desktop:
@@ -16,3 +16,7 @@ org_settings:
   host_expiry_settings:
     host_expiry_enabled: true
     host_expiry_window: 30
+  webhook_settings:
+    activities_webhook:
+      enable_acxtivities_webhook: true
+      destination_url: 'https://webhook.site/f5191002-8fa4-4d6b-bfa2-79d221b174ec'
