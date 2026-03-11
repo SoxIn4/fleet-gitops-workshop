@@ -3,7 +3,7 @@ policies:
 reports:
 agent_options:
 controls:
-  disk_encryption: true
+  enable_disk_encryption: true
   scripts:
     - path: '../lib/windows/scripts/set-wallpaper.ps1'
   macos_settings:
