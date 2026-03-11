@@ -1,0 +1,6 @@
+- name: "CPE Team 🚀"
+  description: "Hosts belonging to the CPE team"
+  label_membership_type: host_vitals
+  criteria:
+    vital: end_user_idp_department
+    value: "CPE"
