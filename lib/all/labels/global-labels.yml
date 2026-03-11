@@ -1,4 +1,4 @@
-- name: "CPE Team 🚀"
+- name: "CPE Team"
   description: "Hosts belonging to the CPE team"
   label_membership_type: host_vitals
   criteria:
