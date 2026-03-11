@@ -5,7 +5,7 @@ reports:
 agent_options:
 controls:
 labels:
-  path: './lib/all/labels/global-labels.yml'
+  - path: 'lib/all/labels/global-labels.yml'
 org_settings:
   server_settings:
     server_url: $FLEET_URL
